@@ -1,0 +1,28 @@
+.button {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+
+  border: none;
+  border-radius: 12px;
+
+  width: 130px;
+  height: 40px;
+
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.navButton {
+  color: var(--color-white);
+  background-color: var(--color-black);
+
+  border: none;
+
+  width: 130px;
+  height: 40px;
+
+  font-family: var(--font-primary);
+  font-size: 0.875rem;
+  font-weight: 600;
+}

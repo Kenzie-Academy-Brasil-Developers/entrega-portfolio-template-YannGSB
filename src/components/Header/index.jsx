@@ -8,7 +8,7 @@ export const Header = () => {
       <nav>
         <HeaderLinks />
       </nav>
-      <button>Contato</button>
+      <button className="button">Contato</button>
     </header>
   );
 };
