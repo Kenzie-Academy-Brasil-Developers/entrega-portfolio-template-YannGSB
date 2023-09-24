@@ -1,15 +1,9 @@
 export const HeaderLinks = () => {
   return (
     <>
-      <li>
-        <button>Sobre</button>
-      </li>
-      <li>
-        <button>Stack</button>
-      </li>
-      <li>
-        <button>Projetos</button>
-      </li>
+      <button>Sobre</button>
+      <button>Stack</button>
+      <button>Projetos</button>
     </>
   );
 };
