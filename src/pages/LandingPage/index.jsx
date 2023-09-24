@@ -1,19 +1,18 @@
-import { Header } from "../../components/Header";
 import { BannerSection } from "../../components/BannerSection";
 import { AboutMeSection } from "../../components/AboutMeSection";
 import { TechSection } from "../../components/TechSection";
 import { ProjectSection } from "../../components/ProjectsSection";
-import { Footer } from "../../components/Footer";
+import { DefaultTemplate } from "../../components/DefaultTemplate";
 
 export const LandingPage = () => {
   return (
     <>
-      <Header />
-      <BannerSection />
-      <AboutMeSection />
-      <TechSection />
-      <ProjectSection />
-      <Footer />
+      <DefaultTemplate>
+        <BannerSection />
+        <AboutMeSection />
+        <TechSection />
+        <ProjectSection />
+      </DefaultTemplate>
     </>
   );
 };
