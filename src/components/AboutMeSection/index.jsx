@@ -1,8 +1,8 @@
 export const AboutMeSection = () => {
   return (
     <section>
-      <h2>Sobre mim</h2>
-      <p>
+      <h2 className="title2">Sobre mim</h2>
+      <p className="paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex magna,
         imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam a ipsum
         finibus, dictum leo non, ultrices dui. Nunc id felis pharetra, vehicula
