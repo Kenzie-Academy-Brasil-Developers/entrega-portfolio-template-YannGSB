@@ -6,17 +6,17 @@ export const FooterList = () => {
   return (
     <>
       <li>
-        <a className="link">
+        <a>
           <img src={whatsappIcon} alt="Logo do Whatsapp" />
         </a>
       </li>
       <li>
-        <a className="link">
+        <a>
           <img src={linkedInIcon} alt="Logo do LinkedIn" />
         </a>
       </li>
       <li>
-        <a className="link">
+        <a>
           <img src={gitHubIcon} alt="Logo do GitHub" />
         </a>
       </li>
