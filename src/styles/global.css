@@ -5,9 +5,11 @@
   --color-black: #000000;
   --color-white: #ffffff;
 
+  --background: #181818;
+
   --font-primary: "Inter", sans-serif;
 }
 
 * {
-  background-color: var(--color-black);
+  background-color: var(--background)
 }
