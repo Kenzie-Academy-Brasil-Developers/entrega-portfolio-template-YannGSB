@@ -1,0 +1,17 @@
+.bannerSection {
+  display: flex;
+
+  margin-bottom: 100px;
+}
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 35px;
+}
+
+.bannerImg {
+  width: 27.3125rem;
+  height: 16.5625rem;
+}

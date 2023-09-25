@@ -1,9 +1,9 @@
 export const HeaderLinks = () => {
   return (
     <>
-      <button>Sobre</button>
-      <button>Stack</button>
-      <button>Projetos</button>
+      <button className="navButton">Sobre</button>
+      <button className="navButton">Stack</button>
+      <button className="navButton">Projetos</button>
     </>
   );
 };

@@ -4,9 +4,11 @@ import { Header } from "../Header";
 export const DefaultTemplate = ({ children }) => {
   return (
     <>
-      <Header />
-      <main>{children}</main>
-      <Footer />
+      <div className="container">
+        <Header />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </>
   );
 };
