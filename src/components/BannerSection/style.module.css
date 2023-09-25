@@ -5,12 +5,13 @@
 }
 
 .bannerContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 35px;
 }
 
 .bannerImg {
-  width: 437.792px;
-  height: 265.656px;
+  width: 27.3125rem;
+  height: 16.5625rem;
 }

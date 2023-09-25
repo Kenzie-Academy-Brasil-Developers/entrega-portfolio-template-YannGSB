@@ -1,8 +1,12 @@
-export const TechCard = ({ source, technology }) => {
+import styles from "./style.module.css"
+
+export const TechCard = ({ source, techName }) => {
   return (
-    <li>
-      <img src={source} alt={technology} />
-      <span className="title3">{technology}</span>
-    </li>
+    <>
+      <div className={styles.listItemContainer}>
+        <img src={source} alt={techName} />
+        <span className="title3">{techName}</span>
+      </div>
+    </>
   );
 };

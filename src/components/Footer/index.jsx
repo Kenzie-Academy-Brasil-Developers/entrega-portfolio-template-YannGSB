@@ -1,4 +1,5 @@
 import { FooterList } from "./FooterList";
+import { user } from "../../data/user";
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <p className="paragraph">Todos os direitos reservados - José da Silva</p>
+      <p className="paragraph">Todos os direitos reservados - {user}</p>
     </footer>
   );
 };
