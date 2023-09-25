@@ -1,9 +1,13 @@
 :root {
-    --color-primary: #6880FF;
-    --color-primary-hover: #7C91FF;
+  --color-primary: #6880ff;
+  --color-primary-hover: #7c91ff;
 
-    --color-black: #000000;
-    --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-white: #ffffff;
 
-    --font-primary: 'Inter', sans-serif;
+  --font-primary: "Inter", sans-serif;
+}
+
+* {
+  background-color: var(--color-black);
 }

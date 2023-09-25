@@ -1,13 +1,16 @@
 import bannerImg from "../../assets/banner-img.png";
+import styles from "./style.module.css"
 
 export const BannerSection = () => {
   return (
-    <section>
+    <section className={styles.bannerSection}>
+      <div className={styles.bannerContainer}>
       <span className="label">JOSEDASILVA</span>
       <h1 className="title1">Bem vindo ao meu portfólio</h1>
       <p className="paragraph">Uma frase interessante sobre mim</p>
       <button className="button">Saiba mais</button>
-      <img src={bannerImg} alt="" />
+      </div>
+      <img className={styles.bannerImg} src={bannerImg} alt="" />
     </section>
   );
 };

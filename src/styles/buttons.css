@@ -5,12 +5,18 @@
   border: none;
   border-radius: 12px;
 
-  width: 130px;
+  width: 110px;
   height: 40px;
 
   font-family: var(--font-primary);
   font-size: 0.875rem;
   font-weight: 600;
+
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-primary-hover);
 }
 
 .navButton {
@@ -25,4 +31,6 @@
   font-family: var(--font-primary);
   font-size: 0.875rem;
   font-weight: 600;
+
+  cursor: pointer;
 }
