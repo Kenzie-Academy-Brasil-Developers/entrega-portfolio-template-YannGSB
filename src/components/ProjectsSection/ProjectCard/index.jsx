@@ -1,5 +1,5 @@
 import gitHubIcon from "../../../assets/git-icon.png";
-import styles from "./style.module.css"
+import styles from "./style.module.css";
 
 export const ProjectCard = ({ name, description }) => {
   return (
