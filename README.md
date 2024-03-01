@@ -21,4 +21,4 @@ O Portfólio é uma aplicação desenvolvida em React com o objetivo de apresent
 ### Informações Adicionais
 
 - **Deploy no Vercel:**
-  - [Link do Deploy](https://kenzie-hub-yann-gsb.vercel.app/](https://entrega-portfolio-template-yann-gsb.vercel.app/)https://entrega-portfolio-template-yann-gsb.vercel.app/)
+  - [Link do Deploy](https://entrega-portfolio-template-yann-gsb.vercel.app/)
